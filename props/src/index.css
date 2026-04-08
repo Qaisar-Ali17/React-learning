@@ -1,0 +1,38 @@
+.card{
+  background: #000;
+  color: #fff;
+  width: 300px;
+  height: 250px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 2px;
+  
+}
+
+.parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: pink;
+  color: blueviolet;
+  /* overflow: scroll; */
+}
+
+.card button{
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.card img{
+  width: 150px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 30px;
+}
