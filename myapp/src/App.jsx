@@ -1,16 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import card from "./components/card"
+import Navbar from "./components/Navbar"
 
 function App() {
 
   return(
     <>
     
-    <h1 className='bg-blue-500'>Hello world!</h1>
-
+    <h1>Hello world!</h1>
+   {card()}
+   {Navbar()}
+   
     </>
   )
 }
