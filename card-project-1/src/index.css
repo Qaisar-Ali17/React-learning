@@ -1,0 +1,28 @@
+.parent{
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  color:  white;
+}
+
+
+.card{
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  margin: 100px auto;
+  padding: 80px ;
+  border-radius: 20px;
+}
+
+.card img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 26555555555560px; */
+  /* padding: 2px; */
+
+}
